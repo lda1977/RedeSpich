@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layLocal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Localizacao">
+
+    <ScrollView
+        android:id="@+id/scrLocal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtLocal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="A resposta do Google" />
+
+            <ImageView
+                android:id="@+id/imgLocal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/local_google" />
+
+            <Button
+                android:id="@+id/btnRestaurante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restaurante" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

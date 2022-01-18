@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rede Spich</string>
+    <string name="dummy_button">Click aqui para Acessar o Restaurante</string>
+    <string name="dummy_content">\nRede\nRestaurantes</string>
+    <string name="txtRedes">Redes Sociais</string>
+    <string name="imgSpich">Logo Spich</string>
+    <string name="btnProximoRedes">Próximo</string>
+    <string name="imgRedes">Redes Sociais</string>
+</resources>
