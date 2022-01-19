@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RedeSpich">
         <activity
+            android:name=".RespostaAPI"
+            android:exported="false" />
+        <activity
             android:name=".Localizacao"
             android:exported="false" />
         <activity

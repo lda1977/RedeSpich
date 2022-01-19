@@ -82,7 +82,6 @@ private lateinit var binding: ActivityFullscreenBinding
         fullscreenContent = binding.fullscreenContent
         fullscreenContent.setOnClickListener { toggle() }
 
-
         //////////////////////////////////////////////////////////////
         // Chamada do Button  para acessar a tela RedesSociais
         //////////////////////////////////////////////////////////////
